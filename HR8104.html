@@ -1,0 +1,2965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- Primary Meta Tags -->
+  <title>Hitendra — Fullstack Developer (Django + React) | Websites, Apps & Automations</title>
+  <meta name="title" content="Hitendra — Fullstack Developer (Django + React) | Websites, Apps & Automations"/>
+  <meta name="description" content="Freelance Fullstack Developer (Django + React) in Gujarat, India. Business websites from ₹8,000, custom web apps, and automations for Indian small businesses, shops and startups."/>
+  <meta name="keywords" content="Fullstack Developer, Django Developer, React Developer, Python Freelancer, Web Development India, Website Developer Gujarat, Website Developer Vadodara, Business Automation, Small Business Websites"/>
+  <meta name="author" content="Hitendra"/>
+  <meta name="robots" content="index, follow"/>
+  
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website"/>
+  <link rel="canonical" href="https://hr8104.github.io/HR8104.html"/>
+  <meta property="og:url" content="https://hr8104.github.io/HR8104.html"/>
+  <meta property="og:image" content="https://hr8104.github.io/images/og-image-in.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt" content="Hitendra — Fullstack Developer (Django + React), websites from ₹8,000"/>
+  <meta name="twitter:image" content="https://hr8104.github.io/images/og-image-in.png"/>
+  <meta property="og:title" content="Hitendra — Fullstack Developer (Django + React)"/>
+  <meta property="og:description" content="Websites, web apps and automations for small businesses. Fixed price websites from ₹8,000, custom Django + React software, and WhatsApp/AI workflows."/>
+  <meta property="og:locale" content="en_IN"/>
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Hitendra — Fullstack Developer (Django + React)"/>
+  <meta name="twitter:description" content="Websites, web apps and automations for small businesses. Clean, fast, and built to convert."/>
+
+  <!-- Favicon (Inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23090b0e'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='15' font-weight='bold' fill='%2310b981' text-anchor='middle'%3E%26lt%3BH/%26gt%3B%3C/text%3E%3C/svg%3E"/>
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ══════════════════════════════════════════════════════════════════
+       RESET & ROOT VARIABLES
+       Clean, modern dark developer theme with high contrast & tactile polish
+       ══════════════════════════════════════════════════════════════════ */
+    :root {
+      --bg: #090b0e;
+      --bg-surface: #0f131a;
+      --bg-surface-elevated: #151a24;
+      --bg-surface-hover: #1c2331;
+      --border: #222a38;
+      --border-accent: rgba(16, 185, 129, 0.35);
+      
+      --emerald: #10b981;
+      --emerald-glow: rgba(16, 185, 129, 0.15);
+      --emerald-light: #34d399;
+      --cyan: #38bdf8;
+      --cyan-glow: rgba(56, 189, 248, 0.15);
+      --purple: #a855f7;
+      --amber: #f59e0b;
+      --rose: #f43f5e;
+      
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-subtle: #64748b;
+      
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace;
+      
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --radius-full: 9999px;
+      
+      --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+      --shadow-glow: 0 0 25px rgba(16, 185, 129, 0.18);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+      color-scheme: dark;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+      background: rgba(16, 185, 129, 0.3);
+      color: #ffffff;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: var(--radius-full);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--text-subtle);
+    }
+
+    /* Keyboard focus ring */
+    :focus-visible {
+      outline: 2px solid var(--emerald);
+      outline-offset: 3px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    button {
+      font: inherit;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    /* Subtle background grid pattern */
+    .bg-grid-overlay {
+      position: fixed;
+      inset: 0;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .ambient-glow {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      pointer-events: none;
+      z-index: -1;
+      opacity: 0.45;
+    }
+    .ambient-glow-1 {
+      top: -120px;
+      left: 10%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, transparent 70%);
+    }
+    .ambient-glow-2 {
+      top: 40%;
+      right: 5%;
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.1) 0%, transparent 70%);
+    }
+
+    /* Layout Container */
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Section Spacing & Headers */
+    section {
+      padding: 5.5rem 0;
+      position: relative;
+    }
+
+    .section-tag {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--emerald);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-full);
+    }
+    .section-tag::before {
+      content: '//';
+      color: var(--emerald-light);
+    }
+
+    .section-title {
+      font-size: clamp(1.85rem, 4vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 640px;
+      line-height: 1.6;
+      margin-bottom: 3rem;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       STICKY NAVBAR
+       ══════════════════════════════════════════════════════════════════ */
+    .navbar {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(9, 11, 14, 0.8);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      transition: var(--transition);
+    }
+    .navbar.scrolled {
+      background: rgba(9, 11, 14, 0.95);
+      border-color: rgba(34, 42, 56, 0.9);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    .brand-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      transition: var(--transition);
+    }
+    .brand-logo:hover {
+      color: var(--emerald);
+    }
+    .brand-logo .code-bracket {
+      color: var(--emerald);
+    }
+    .brand-logo .dot-dev {
+      color: var(--text-subtle);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      transition: var(--transition);
+      letter-spacing: 0.02em;
+      display: inline-flex;
+      align-items: center;
+    }
+    .nav-links a {
+      position: relative;
+      padding: 0.35rem 0;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -2px;
+      height: 2px;
+      border-radius: 2px;
+      background: var(--emerald);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--text);
+    }
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      transform: scaleX(1);
+    }
+    .nav-links a span.nav-hash {
+      color: var(--emerald);
+      margin-right: 2px;
+      opacity: 0.7;
+    }
+
+    .nav-cta-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    /* Common Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.65rem 1.25rem;
+      border-radius: var(--radius-sm);
+      transition: var(--transition);
+      cursor: pointer;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .btn-emerald {
+      background: var(--emerald);
+      color: #05160e;
+      border: 1px solid var(--emerald);
+      box-shadow: 0 2px 10px rgba(16, 185, 129, 0.25);
+    }
+    .btn-emerald:hover {
+      background: var(--emerald-light);
+      border-color: var(--emerald-light);
+      box-shadow: 0 4px 18px rgba(16, 185, 129, 0.4);
+      transform: translateY(-1px);
+    }
+    .btn-emerald:active {
+      transform: translateY(0);
+    }
+
+    .btn-secondary {
+      background: var(--bg-surface-elevated);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background: var(--bg-surface-hover);
+      border-color: var(--text-subtle);
+      color: #ffffff;
+      transform: translateY(-1px);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover {
+      color: var(--text);
+      border-color: var(--emerald);
+      background: rgba(16, 185, 129, 0.05);
+    }
+
+    .btn-sm {
+      padding: 0.45rem 0.9rem;
+      font-size: 0.78rem;
+    }
+
+    /* Mobile Nav Toggle */
+    .mobile-menu-btn {
+      display: none;
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--bg-surface);
+      color: var(--text);
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       HERO SECTION
+       ══════════════════════════════════════════════════════════════════ */
+    /* Mobile drawer hidden by default; shown only via the mobile media query */
+    .mobile-drawer {
+      display: none;
+    }
+
+    .hero {
+      padding: 4.5rem 0 5.5rem;
+    }
+
+    .hero-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+    /* Pitch first, terminal second */
+    .hero-wrapper .hero-main { order: -1; }
+
+    @media (min-width: 1000px) {
+      .hero {
+        min-height: calc(100vh - 70px);
+        display: flex;
+        align-items: center;
+      }
+      .hero-wrapper {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        align-items: center;
+        gap: 3.5rem;
+      }
+      .hero-wrapper .terminal-window {
+        box-shadow: var(--shadow-card), 0 0 60px rgba(16, 185, 129, 0.08);
+        transform: perspective(1200px) rotateY(-4deg);
+        transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .hero-wrapper .terminal-window:hover {
+        transform: perspective(1200px) rotateY(0deg);
+      }
+      .hero-wrapper .terminal-title { display: none; }
+      .hero-wrapper .terminal-content { font-size: 0.82rem; }
+    }
+
+    /* Terminal Window */
+    .terminal-window {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-card), 0 0 0 1px rgba(255, 255, 255, 0.03);
+    }
+
+    .terminal-header {
+      background: var(--bg-surface-elevated);
+      border-bottom: 1px solid var(--border);
+      padding: 0.65rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .terminal-dots {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+    }
+    .dot-red { background: #ef4444; }
+    .dot-yellow { background: #f59e0b; }
+    .dot-green { background: #10b981; }
+
+    .terminal-title {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-subtle);
+      letter-spacing: 0.03em;
+    }
+
+    .terminal-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--emerald-light);
+      background: rgba(16, 185, 129, 0.1);
+      padding: 0.15rem 0.5rem;
+      border-radius: var(--radius-full);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+    .terminal-badge .pulse-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--emerald);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
+
+    .terminal-content {
+      padding: 1.25rem 1.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      line-height: 1.9;
+    }
+    .t-row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .t-arrow { color: var(--emerald); font-weight: bold; }
+    .t-command { color: var(--cyan); }
+    .t-out { padding-left: 1.25rem; color: var(--text); }
+    .t-key { color: var(--purple); }
+    .t-eq { color: var(--text-subtle); }
+    .t-str { color: #facc15; }
+    .t-comment { color: var(--text-subtle); font-style: italic; }
+    .t-cursor {
+      display: inline-block;
+      width: 8px;
+      height: 1.1em;
+      background: var(--emerald);
+      vertical-align: middle;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+    /* Hero Text & Conversion Messaging */
+    .hero-main {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .hero-availability-pill {
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--emerald-light);
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      padding: 0.35rem 0.85rem;
+      border-radius: var(--radius-full);
+    }
+    .status-indicator {
+      width: 8px;
+      height: 8px;
+      background: var(--emerald);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--emerald);
+    }
+
+    .hero-headline {
+      font-size: clamp(2.3rem, 5.5vw, 3.8rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1.1;
+      color: var(--text);
+    }
+    .hero-headline span.gradient-text {
+      background: linear-gradient(135deg, #ffffff 30%, var(--emerald-light) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-tagline {
+      font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+      font-weight: 500;
+      color: var(--cyan);
+      letter-spacing: -0.01em;
+    }
+
+    .hero-description {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      line-height: 1.7;
+    }
+
+    .hero-tech-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .tech-pill {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .tech-pill.accent {
+      color: var(--emerald);
+      border-color: rgba(16, 185, 129, 0.3);
+      background: rgba(16, 185, 129, 0.05);
+    }
+
+    .hero-cta-actions {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .hero-cta-actions .btn {
+      padding: 0.85rem 1.75rem;
+      font-size: 0.92rem;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       SERVICES SECTION (3 Cards + Pricing + Reassurance)
+       ══════════════════════════════════════════════════════════════════ */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .service-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 2rem 1.75rem;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: var(--transition);
+    }
+    .service-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-card), 0 0 20px rgba(16, 185, 129, 0.1);
+    }
+    .service-card.featured-card {
+      border-color: rgba(16, 185, 129, 0.4);
+      background: linear-gradient(180deg, rgba(16, 185, 129, 0.03) 0%, var(--bg-surface) 100%);
+    }
+
+    .service-badge {
+      position: absolute;
+      top: -12px;
+      right: 1.5rem;
+      background: var(--emerald);
+      color: #062416;
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.65rem;
+      border-radius: var(--radius-full);
+    }
+
+    .service-icon-box {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--emerald);
+      margin-bottom: 1.25rem;
+    }
+
+    .service-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+
+    .service-price-block {
+      margin: 0.75rem 0 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .service-price {
+      font-family: var(--font-mono);
+      font-size: 1.65rem;
+      font-weight: 700;
+      color: var(--emerald-light);
+    }
+    .service-price-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .service-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+      flex-grow: 1;
+    }
+    .service-features li {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      line-height: 1.5;
+    }
+    .service-features li svg {
+      color: var(--emerald);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .service-card .btn {
+      width: 100%;
+    }
+
+    /* Important Client Ownership & Pricing Callout */
+    .pricing-guarantee-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--emerald);
+      border-radius: var(--radius-sm);
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .guarantee-icon {
+      color: var(--emerald);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .guarantee-text {
+      font-size: 0.92rem;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .guarantee-text strong {
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       HOW I WORK (4-Step Process Strip)
+       ══════════════════════════════════════════════════════════════════ */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+      position: relative;
+    }
+
+    .process-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem 1.25rem;
+      position: relative;
+      transition: var(--transition);
+    }
+    .process-card:hover {
+      border-color: rgba(56, 189, 248, 0.4);
+      transform: translateY(-3px);
+    }
+
+    .process-number {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--cyan);
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .process-step-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+
+    .process-step-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       FEATURED PROJECTS SECTION
+       ══════════════════════════════════════════════════════════════════ */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .featured-project-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .featured-project-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--emerald), var(--cyan));
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    .featured-project-card:hover {
+      border-color: rgba(16, 185, 129, 0.35);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-card);
+    }
+    .featured-project-card:hover::before {
+      opacity: 1;
+    }
+
+    .project-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    .project-badge-pill {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--cyan);
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-full);
+    }
+
+    .project-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.3;
+    }
+
+    .project-problem-solved {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      flex-grow: 1;
+    }
+    .project-problem-solved strong {
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .project-tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.25rem;
+    }
+
+    .project-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+    .project-actions .btn {
+      flex: 1;
+      padding: 0.55rem 0.9rem;
+      font-size: 0.8rem;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       GALLERY SECTION & LIGHTBOX
+       ══════════════════════════════════════════════════════════════════ */
+    .gallery-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .filter-btn {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      padding: 0.45rem 1rem;
+      border-radius: var(--radius-full);
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .filter-btn:hover {
+      color: var(--text);
+      border-color: var(--text-subtle);
+    }
+    .filter-btn.active {
+      color: #062416;
+      background: var(--emerald);
+      border-color: var(--emerald);
+      font-weight: 600;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .gallery-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .gallery-card:hover {
+      border-color: rgba(16, 185, 129, 0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .gallery-thumb-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      background: var(--bg-surface-elevated);
+      overflow: hidden;
+    }
+
+    .gallery-thumb-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.35s ease;
+    }
+    .gallery-card:hover .gallery-thumb-img {
+      transform: scale(1.03);
+    }
+
+    /* Fallback/Mockup Placeholder Box */
+    .gallery-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.25rem;
+      background: linear-gradient(145deg, #121721 0%, #0d1117 100%);
+      color: var(--text-subtle);
+      text-align: center;
+      gap: 0.5rem;
+      position: relative;
+    }
+    .placeholder-badge {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      padding: 0.2rem 0.5rem;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      color: var(--emerald-light);
+      border-radius: var(--radius-sm);
+    }
+    .placeholder-label {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .placeholder-hint {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-subtle);
+      max-width: 90%;
+      word-break: break-all;
+    }
+
+    .gallery-thumb-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(9, 11, 14, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .gallery-card:hover .gallery-thumb-overlay {
+      opacity: 1;
+    }
+    .gallery-zoom-badge {
+      background: rgba(16, 185, 129, 0.9);
+      color: #031c10;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.4rem 0.8rem;
+      border-radius: var(--radius-full);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    .gallery-info {
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .gallery-project-name {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--cyan);
+    }
+    .gallery-caption {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* Lightbox Modal */
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(5, 7, 10, 0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+    }
+    .lightbox-modal.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .lightbox-container {
+      position: relative;
+      max-width: 960px;
+      width: 100%;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.75);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .lightbox-topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1.25rem;
+      background: var(--bg-surface-elevated);
+      border-bottom: 1px solid var(--border);
+    }
+    .lightbox-counter {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-subtle);
+    }
+    .lightbox-close-btn {
+      color: var(--text-muted);
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--radius-sm);
+      transition: var(--transition);
+    }
+    .lightbox-close-btn:hover {
+      color: #ffffff;
+      background: var(--bg-surface-hover);
+    }
+
+    .lightbox-media-viewport {
+      position: relative;
+      width: 100%;
+      min-height: 340px;
+      max-height: 65vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #06080a;
+      overflow: hidden;
+    }
+    .lightbox-image {
+      max-width: 100%;
+      max-height: 65vh;
+      object-fit: contain;
+    }
+
+    .lightbox-nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      background: rgba(15, 19, 26, 0.75);
+      border: 1px solid var(--border);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: var(--transition);
+      z-index: 10;
+    }
+    .lightbox-nav-btn:hover {
+      background: var(--emerald);
+      color: #031c10;
+      border-color: var(--emerald);
+    }
+    .lightbox-prev-btn { left: 1rem; }
+    .lightbox-next-btn { right: 1rem; }
+
+    .lightbox-footer {
+      padding: 1rem 1.25rem;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border);
+    }
+    .lightbox-project-badge {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--cyan);
+      margin-bottom: 0.25rem;
+    }
+    .lightbox-caption-text {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       MORE PROJECTS (Data Science & Utilities)
+       ══════════════════════════════════════════════════════════════════ */
+    .more-projects-section {
+      padding-top: 2rem;
+    }
+
+    .more-projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .compact-project-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transition: var(--transition);
+      text-decoration: none;
+    }
+    .compact-project-card:hover {
+      border-color: rgba(56, 189, 248, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .compact-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .compact-project-icon {
+      font-size: 1.2rem;
+    }
+    .compact-arrow-icon {
+      color: var(--text-subtle);
+      transition: var(--transition);
+    }
+    .compact-project-card:hover .compact-arrow-icon {
+      color: var(--cyan);
+      transform: translateX(2px) translateY(-2px);
+    }
+
+    .compact-project-title {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .compact-project-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      flex-grow: 1;
+    }
+
+    .compact-project-meta {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-subtle);
+      margin-top: 0.25rem;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       SKILLS SECTION ("What I build with")
+       ══════════════════════════════════════════════════════════════════ */
+    .tech-stack-container {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 2.25rem;
+    }
+
+    .stack-tags-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+    }
+
+    .stack-tag-badge {
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+      font-weight: 500;
+      padding: 0.65rem 1.15rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border);
+      color: var(--text);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      transition: var(--transition);
+    }
+    .stack-tag-badge:hover {
+      border-color: var(--emerald);
+      color: #ffffff;
+      background: rgba(16, 185, 129, 0.08);
+      transform: translateY(-2px);
+    }
+    .stack-tag-badge svg,
+    .stack-tag-badge span.tech-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--emerald);
+    }
+    .stack-tag-badge.cyan span.tech-dot { background: var(--cyan); }
+    .stack-tag-badge.purple span.tech-dot { background: var(--purple); }
+    .stack-tag-badge.amber span.tech-dot { background: var(--amber); }
+
+    /* ══════════════════════════════════════════════════════════════════
+       CONTACT SECTION
+       ══════════════════════════════════════════════════════════════════ */
+    .contact-container {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+
+    .contact-topbar {
+      background: var(--bg-surface-elevated);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .contact-content-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 2.5rem;
+      padding: 2.5rem;
+    }
+
+    .contact-pitch-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .contact-lead-statement {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.35;
+    }
+
+    .contact-sub-statement {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    .contact-quick-note {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--emerald-light);
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .contact-links-col {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .contact-channel-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      transition: var(--transition);
+      text-decoration: none;
+      color: var(--text);
+    }
+    .contact-channel-card:hover {
+      border-color: var(--emerald);
+      background: rgba(16, 185, 129, 0.05);
+      transform: translateX(3px);
+    }
+    .contact-channel-card.whatsapp-card:hover {
+      border-color: #25D366;
+      background: rgba(37, 211, 102, 0.06);
+    }
+
+    .contact-icon-box {
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--text-muted);
+      transition: var(--transition);
+    }
+    .contact-channel-card:hover .contact-icon-box {
+      color: var(--emerald);
+    }
+    .whatsapp-card .contact-icon-box {
+      color: #25D366;
+    }
+    .linkedin-card .contact-icon-box {
+      color: #0077b5;
+    }
+
+    .contact-channel-info {
+      flex-grow: 1;
+    }
+    .contact-channel-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-subtle);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .contact-channel-val {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .contact-channel-badge {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: var(--radius-full);
+      background: rgba(37, 211, 102, 0.15);
+      color: #25D366;
+      margin-left: 0.5rem;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════════════════════════════ */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 3rem 0;
+      margin-top: 2rem;
+      background: var(--bg);
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .footer-brand-title {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .footer-location {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-subtle);
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .footer-links {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .footer-links a {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      transition: var(--transition);
+    }
+    .footer-links a:hover {
+      color: var(--emerald);
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       SCROLL REVEAL ANIMATIONS
+       ══════════════════════════════════════════════════════════════════ */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════
+       RESPONSIVE BREAKPOINTS (Mobile-First Polish)
+       ══════════════════════════════════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      .contact-content-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1.75rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .mobile-menu-btn {
+        display: flex;
+      }
+
+      /* Mobile Drawer Navigation */
+      .mobile-drawer {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: rgba(15, 19, 26, 0.98);
+        border-bottom: 1px solid var(--border);
+        padding: 1.5rem;
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        z-index: 99;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      }
+      .mobile-drawer.open {
+        display: flex;
+      }
+      .mobile-drawer a {
+        font-family: var(--font-mono);
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        padding: 0.5rem 0;
+      }
+      .mobile-drawer a:hover {
+        color: var(--emerald);
+      }
+
+      .hero {
+        padding: 2rem 0 3.5rem;
+      }
+      .terminal-content {
+        padding: 1rem;
+        font-size: 0.78rem;
+      }
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    /* ══════════════════════════════════════════════════════════════════
+       UI POLISH: progress bar, active nav, back-to-top, card spotlight
+       ══════════════════════════════════════════════════════════════════ */
+    .scroll-progress {
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      height: 2px;
+      width: 100%;
+      transform-origin: left;
+      transform: scaleX(0);
+      background: linear-gradient(90deg, var(--emerald), var(--cyan));
+      box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
+      pointer-events: none;
+    }
+    .nav-links a.active { color: var(--emerald-light); }
+    .nav-links a.active span.nav-hash { opacity: 1; }
+    .mobile-drawer a.active { color: var(--emerald); }
+
+    /* Soft gradient divider between sections */
+    main > section + section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(1180px, 90%);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border) 20%, rgba(16,185,129,0.35) 50%, var(--border) 80%, transparent);
+    }
+    .section-title {
+      text-wrap: balance;
+    }
+
+    /* Cursor-follow spotlight on cards */
+    .service-card, .featured-project-card, .process-card, .gallery-card {
+      --mx: 50%;
+      --my: 50%;
+      isolation: isolate;
+    }
+    .service-card::after, .featured-project-card::after, .process-card::after, .gallery-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: radial-gradient(420px circle at var(--mx) var(--my), rgba(16, 185, 129, 0.09), transparent 45%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+      z-index: -1; /* above card background, below content */
+    }
+    .service-card:hover::after, .featured-project-card:hover::after, .process-card:hover::after, .gallery-card:hover::after {
+      opacity: 1;
+    }
+    .process-card { position: relative; }
+
+    /* Back to top */
+    .back-to-top {
+      position: fixed;
+      right: 1.25rem;
+      bottom: 1.25rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--emerald-light);
+      background: rgba(15, 19, 26, 0.9);
+      border: 1px solid var(--border-accent);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow-card);
+      opacity: 0;
+      transform: translateY(12px);
+      pointer-events: none;
+      transition: var(--transition);
+      z-index: 90;
+    }
+    .back-to-top.show {
+      opacity: 1;
+      transform: none;
+      pointer-events: auto;
+    }
+    .back-to-top:hover {
+      background: var(--emerald);
+      color: #04120c;
+      box-shadow: var(--shadow-glow);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+      .hero-wrapper .terminal-window { transform: none !important; }
+    }
+    /* Hero price line */
+    .hero-price-line {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem 0.9rem;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .hero-price-line strong {
+      color: var(--emerald-light);
+      font-weight: 700;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 0.3rem 0.75rem;
+      border-radius: var(--radius-full);
+    }
+    .hero-price-line .sep { color: var(--text-subtle); }
+    @media (max-width: 600px) { .hero-price-line .sep { display: none; } }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient glow backdrop -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+  <div class="bg-grid-overlay"></div>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       STICKY NAVBAR
+       ══════════════════════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" aria-label="Main Navigation">
+    <div class="container nav-inner">
+      <a href="#" class="brand-logo" aria-label="Hitendra Portfolio Home">
+        <span class="code-bracket">&lt;</span>Hitendra<span class="dot-dev">.dev</span><span class="code-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-links">
+        <li><a href="#services"><span class="nav-hash">//</span>services</a></li>
+        <li><a href="#process"><span class="nav-hash">//</span>process</a></li>
+        <li><a href="#projects"><span class="nav-hash">//</span>work</a></li>
+        <li><a href="#gallery"><span class="nav-hash">//</span>gallery</a></li>
+        <li><a href="#stack"><span class="nav-hash">//</span>stack</a></li>
+        <li><a href="#contact"><span class="nav-hash">//</span>contact</a></li>
+      </ul>
+
+      <div class="nav-cta-group">
+        <a href="#contact" class="btn btn-emerald btn-sm">
+          Hire me
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+
+        <!-- Mobile hamburger button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <a href="#services">// services</a>
+      <a href="#process">// how I work</a>
+      <a href="#projects">// featured work</a>
+      <a href="#gallery">// screenshot gallery</a>
+      <a href="#stack">// tech stack</a>
+      <a href="#contact">// contact</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       HERO SECTION
+       ══════════════════════════════════════════════════════════════════ -->
+  <header class="hero" id="home">
+    <div class="container hero-wrapper">
+      
+      <!-- Sleek Developer Terminal -->
+      <div class="terminal-window reveal">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="terminal-title">hitendra@portfolio ~ python whoami.py</div>
+          <div class="terminal-badge">
+            <span class="pulse-dot"></span> Available for freelance
+          </div>
+        </div>
+        <div class="terminal-content">
+          <div class="t-row">
+            <span class="t-arrow">❯</span>
+            <span class="t-command">python whoami.py</span>
+          </div>
+          <div class="t-out">
+            <span class="t-key">name</span> <span class="t-eq">=</span> <span class="t-str">"Hitendra"</span>
+          </div>
+          <div class="t-out">
+            <span class="t-key">role</span> <span class="t-eq">=</span> <span class="t-str">"Fullstack Developer (Django + React)"</span>
+          </div>
+          <div class="t-out">
+            <span class="t-key">focus</span> <span class="t-eq">=</span> <span class="t-str">"Websites, Web Apps & Automations for Small Businesses"</span>
+          </div>
+          <div class="t-out">
+            <span class="t-key">location</span> <span class="t-eq">=</span> <span class="t-str">"Halol, Gujarat, India 🇮🇳"</span>
+          </div>
+          <div class="t-out">
+            <span class="t-comment"># Ready to build, automate, and ship without the SaaS bloat 🚀</span>
+          </div>
+          <div class="t-row" style="margin-top:0.4rem;">
+            <span class="t-arrow">❯</span>
+            <span class="t-cursor"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Headline & Conversion Pitch -->
+      <div class="hero-main reveal">
+        <div class="hero-availability-pill">
+          <span class="status-indicator"></span>
+          Accepting new projects for 2026 — Quick turnaround
+        </div>
+
+        <h1 class="hero-headline">
+          Fullstack Developer <br/>
+          <span class="gradient-text">(Django + React)</span>
+        </h1>
+
+        <p class="hero-tagline">
+          Websites, web apps and automations for small businesses.
+        </p>
+
+        <p class="hero-description">
+          I build high-performance web products that generate revenue and automate time-consuming manual workflows. Direct communication, transparent pricing, and zero corporate overhead.
+        </p>
+
+        <p class="hero-price-line">
+          <strong>Websites from ₹8,000</strong>
+          <span>Web apps &amp; automations quoted per project</span>
+          <span class="sep">·</span>
+          <span>Fixed price, no hourly billing</span>
+        </p>
+
+        <!-- Quick Tech Badges -->
+        <div class="hero-tech-badges">
+          <span class="tech-pill accent">Django</span>
+          <span class="tech-pill accent">React</span>
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">PostgreSQL</span>
+          <span class="tech-pill">REST APIs</span>
+          <span class="tech-pill">AI & Workflows</span>
+        </div>
+
+        <!-- Hero CTAs -->
+        <div class="hero-cta-actions">
+          <a href="#projects" class="btn btn-secondary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            View my work
+          </a>
+          <a href="#contact" class="btn btn-emerald">
+            Hire me
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- ══════════════════════════════════════════════════════════════════
+         01: SERVICES SECTION (3 Cards + Pricing + Reassurance)
+         ══════════════════════════════════════════════════════════════════ -->
+    <section id="services">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">services</span>
+          <h2 class="section-title">Services & Transparent Pricing</h2>
+          <p class="section-subtitle">
+            Affordable, fixed-price packages for Indian shops, clinics, restaurants, coaching classes and startups.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Card 1: Websites -->
+          <article class="service-card featured-card reveal">
+            <span class="service-badge">Popular with Indian Shops & Startups</span>
+            <div class="service-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <h3 class="service-title">Websites</h3>
+            <p style="font-size:0.85rem; color:var(--text-muted);">Clean, mobile-first websites designed to turn visitors into inquiries and paying customers.</p>
+            
+            <div class="service-price-block">
+              <div class="service-price">₹8,000 <span style="font-size:0.9rem; font-weight:400; color:var(--text-subtle);">fixed</span></div>
+              <div class="service-price-sub">Hosting setup included</div>
+            </div>
+
+            <ul class="service-features">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Mobile-responsive, ultra-fast loading speed</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Complete domain & hosting configuration</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>WhatsApp and email contact routing</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Basic search engine & social share SEO setup</span>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn btn-emerald">Get your website</a>
+          </article>
+
+          <!-- Card 2: Custom Web Apps -->
+          <article class="service-card reveal">
+            <div class="service-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <h3 class="service-title">Custom Web Apps</h3>
+            <p style="font-size:0.85rem; color:var(--text-muted);">Scalable web applications built specifically for your internal operations or SaaS product.</p>
+
+            <div class="service-price-block">
+              <div class="service-price" style="font-size:1.35rem;">Custom Quote</div>
+              <div class="service-price-sub">Priced based on requirements</div>
+            </div>
+
+            <ul class="service-features">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Django + React robust fullstack architecture</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>PostgreSQL database & secure authentication</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Custom client portals, admin panels & dashboards</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Clean RESTful API endpoints & third-party integrations</span>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn btn-secondary">Discuss requirements</a>
+          </article>
+
+          <!-- Card 3: Automations -->
+          <article class="service-card reveal">
+            <div class="service-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+            </div>
+            <h3 class="service-title">Automation & AI</h3>
+            <p style="font-size:0.85rem; color:var(--text-muted);">Eliminate manual data entry and repetitive busywork with intelligent automated pipelines.</p>
+
+            <div class="service-price-block">
+              <div class="service-price" style="font-size:1.35rem;">Custom Quote</div>
+              <div class="service-price-sub">Priced based on requirements</div>
+            </div>
+
+            <ul class="service-features">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Direct lead capture to Google Sheets & Airtable</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Instant auto-replies, email sorting & notifications</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Automated booking reminders & status updates</span>
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Custom AI workflows powered by LLM APIs</span>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn btn-secondary">Request automation</a>
+          </article>
+
+        </div>
+
+        <!-- Reassurance Box: Ownership & Tools Cost -->
+        <div class="pricing-guarantee-box reveal">
+          <div class="guarantee-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div class="guarantee-text">
+            <strong>Honest Pricing Guarantee:</strong> You pay me once to build it. Tools (hosting, automation platform, AI API) have their own small monthly cost, which I estimate before we start. You own all accounts. Prices in INR · Pay via UPI or bank transfer.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         02: HOW I WORK (4-Step Frictionless Strip)
+         ══════════════════════════════════════════════════════════════════ -->
+    <section id="process">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">how I work</span>
+          <h2 class="section-title">A Simple, Predictable Process</h2>
+          <p class="section-subtitle">
+            No bureaucratic layers, no surprise bills. Here is how your project goes from your first message to a live deployment:
+          </p>
+        </div>
+
+        <div class="process-grid">
+          
+          <div class="process-card reveal">
+            <div class="process-number">01</div>
+            <h3 class="process-step-title">Share your idea</h3>
+            <p class="process-step-desc">
+              Drop me a WhatsApp message or email outlining what you want to build, automate, or fix.
+            </p>
+          </div>
+
+          <div class="process-card reveal">
+            <div class="process-number">02</div>
+            <h3 class="process-step-title">Get quote & timeline</h3>
+            <p class="process-step-desc">
+              I analyze your scope and send a clear, fixed quote and a realistic delivery date within 24 hours.
+            </p>
+          </div>
+
+          <div class="process-card reveal">
+            <div class="process-number">03</div>
+            <h3 class="process-step-title">Build & review</h3>
+            <p class="process-step-desc">
+              I build your project with continuous updates and staging previews so you test features as they develop.
+            </p>
+          </div>
+
+          <div class="process-card reveal">
+            <div class="process-number">04</div>
+            <h3 class="process-step-title">Launch & handoff</h3>
+            <p class="process-step-desc">
+              We go live on your domain. You receive full code ownership, account logins, and 14 days of post-launch support.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         03: FEATURED PROJECTS SECTION
+         ══════════════════════════════════════════════════════════════════ -->
+    <section id="projects">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">featured work</span>
+          <h2 class="section-title">Built to Solve Real Business Problems</h2>
+          <p class="section-subtitle">
+            Every project here was engineered to save hours of manual labor, increase client conversions, or replace bloated SaaS software.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: AI Booking & Support System -->
+          <article class="featured-project-card reveal">
+            <div class="project-card-header">
+              <h3 class="project-title">AI Booking & Support System</h3>
+              <span class="project-badge-pill">AI + Fullstack</span>
+            </div>
+            
+            <p class="project-problem-solved">
+              <strong>Problem it solves:</strong> Eliminates missed customer calls and hours of manual appointment scheduling by handling reservations and FAQs automatically 24/7.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill accent">Python</span>
+              <span class="tech-pill accent">Django</span>
+              <span class="tech-pill">OpenAI API</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">REST API</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#gallery" class="btn btn-secondary btn-sm" onclick="filterGallery('AI Booking & Support System')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                View Screenshots
+              </a>
+              <a href="https://github.com/HR8104/AI-Booking-and-Support-System" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: AI Email Automation -->
+          <article class="featured-project-card reveal">
+            <div class="project-card-header">
+              <h3 class="project-title">AI Email Automation</h3>
+              <span class="project-badge-pill">Workflow Automation</span>
+            </div>
+
+            <p class="project-problem-solved">
+              <strong>Problem it solves:</strong> Prevents lost sales leads by auto-sorting incoming client inquiries, syncing them to Google Sheets, and drafting context-aware replies in seconds.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill accent">Python</span>
+              <span class="tech-pill accent">Flask</span>
+              <span class="tech-pill">Google Sheets API</span>
+              <span class="tech-pill">NLP</span>
+              <span class="tech-pill">OAuth2</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#gallery" class="btn btn-secondary btn-sm" onclick="filterGallery('AI Email Automation')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                View Screenshots
+              </a>
+              <a href="https://github.com/HR8104/AI_Email_Automation" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Restaurant Booking Website -->
+          <article class="featured-project-card reveal">
+            <div class="project-card-header">
+              <h3 class="project-title">Restaurant Booking Website</h3>
+              <span class="project-badge-pill">Direct Orders & Booking</span>
+            </div>
+
+            <p class="project-problem-solved">
+              <strong>Problem it solves:</strong> Saves local restaurants 15–30% in food aggregator platform commissions by offering direct table booking and menu ordering.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill accent">React</span>
+              <span class="tech-pill accent">Django REST</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">Tailwind CSS</span>
+              <span class="tech-pill">WhatsApp API</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#gallery" class="btn btn-secondary btn-sm" onclick="filterGallery('Restaurant Booking Website')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                View Screenshots
+              </a>
+              <a href="https://github.com/HR8104" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Business CRM & Client Portal -->
+          <article class="featured-project-card reveal">
+            <div class="project-card-header">
+              <h3 class="project-title">Custom Business CRM & Portal</h3>
+              <span class="project-badge-pill">Internal Tool</span>
+            </div>
+
+            <p class="project-problem-solved">
+              <strong>Problem it solves:</strong> Replaces messy shared spreadsheets with a single organized dashboard for lead tracking, customer follow-ups, and project status.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill accent">Django</span>
+              <span class="tech-pill accent">React</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">JWT Auth</span>
+              <span class="tech-pill">REST APIs</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#gallery" class="btn btn-secondary btn-sm" onclick="filterGallery('Business CRM & Client Portal')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                View Screenshots
+              </a>
+              <a href="https://github.com/HR8104" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: Beer Money — Gig Marketplace -->
+          <article class="featured-project-card reveal">
+            <div class="project-card-header">
+              <h3 class="project-title">Beer Money — Gig Marketplace</h3>
+              <span class="project-badge-pill">Multi-Role Platform</span>
+            </div>
+
+            <p class="project-problem-solved">
+              <strong>Problem it solves:</strong> Connects students looking for quick local gigs (events, delivery, promotions) with employers who need short-term help — replacing WhatsApp group chaos with a structured marketplace featuring role-based dashboards and an admin audit trail.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill accent">Django</span>
+              <span class="tech-pill accent">Python</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">Tailwind CSS</span>
+              <span class="tech-pill">Multi-Role Auth</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="#gallery" class="btn btn-secondary btn-sm" onclick="filterGallery('Beer Money — Gig Marketplace')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                View Screenshots
+              </a>
+              <a href="https://github.com/HR8104" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             MORE PROJECTS ROW (Data Science & Utilities)
+             ══════════════════════════════════════════════════════════════ -->
+        <div class="more-projects-section reveal">
+          <div style="margin-bottom:1.25rem;">
+            <h3 style="font-family:var(--font-mono); font-size:0.85rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.1em;">
+              // Data Science & Utility Projects
+            </h3>
+          </div>
+
+          <div class="more-projects-grid">
+            
+            <!-- Student Stream Prediction -->
+            <a href="https://github.com/HR8104/Student_Stream_Prediction_System" target="_blank" rel="noopener noreferrer" class="compact-project-card">
+              <div class="compact-card-top">
+                <span class="compact-project-icon">🎓</span>
+                <svg class="compact-arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+              <div class="compact-project-title">Student Stream Prediction</div>
+              <div class="compact-project-desc">ML model analyzing student academic metrics to recommend tailored education streams (Science/Commerce/Arts).</div>
+              <div class="compact-project-meta">Python · Scikit-Learn · Jupyter</div>
+            </a>
+
+            <!-- SuperStore Sales Analysis -->
+            <a href="https://github.com/HR8104/SuperStore_analysis" target="_blank" rel="noopener noreferrer" class="compact-project-card">
+              <div class="compact-card-top">
+                <span class="compact-project-icon">📊</span>
+                <svg class="compact-arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+              <div class="compact-project-title">SuperStore Sales Analysis</div>
+              <div class="compact-project-desc">Exploratory business intelligence on retail store data uncovering profit bottlenecks and customer trends.</div>
+              <div class="compact-project-meta">Pandas · Data Viz · Jupyter</div>
+            </a>
+
+            <!-- Sentiment Analysis -->
+            <a href="https://github.com/HR8104/Sentiment_Analysis" target="_blank" rel="noopener noreferrer" class="compact-project-card">
+              <div class="compact-card-top">
+                <span class="compact-project-icon">💬</span>
+                <svg class="compact-arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+              <div class="compact-project-title">Sentiment Analysis</div>
+              <div class="compact-project-desc">NLP customer sentiment classification engine scoring client feedback as positive, neutral, or negative.</div>
+              <div class="compact-project-meta">Python · Flask · NLP</div>
+            </a>
+
+            <!-- Expense Tracker -->
+            <a href="https://github.com/HR8104/Expense_Tracker" target="_blank" rel="noopener noreferrer" class="compact-project-card">
+              <div class="compact-card-top">
+                <span class="compact-project-icon">💰</span>
+                <svg class="compact-arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </div>
+              <div class="compact-project-title">Expense Tracker</div>
+              <div class="compact-project-desc">Clean client-side expense logging application with budget categorization and monthly expenditure insights.</div>
+              <div class="compact-project-meta">JavaScript · HTML5 · CSS3</div>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         04: GALLERY SECTION (Screenshots & Lightbox)
+         ══════════════════════════════════════════════════════════════════ -->
+    <section id="gallery">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">gallery</span>
+          <h2 class="section-title">Project Screenshot Gallery</h2>
+          <p class="section-subtitle">
+            Inspect real user interfaces, workflow automations, and system views. Filter by project and click any item to open the full-screen lightbox.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="gallery-filter-bar reveal" id="galleryFilterBar" role="tablist" aria-label="Gallery Filters">
+          <!-- Rendered dynamically by vanilla JS -->
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Rendered dynamically from GALLERY_ITEMS array -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         05: WHAT I BUILD WITH (Replaces Skill Bars)
+         ══════════════════════════════════════════════════════════════════ -->
+    <section id="stack">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">stack</span>
+          <h2 class="section-title">What I Build With</h2>
+          <p class="section-subtitle">
+            A battle-tested developer stack focused on reliability, rapid feature delivery, and straightforward maintenance.
+          </p>
+        </div>
+
+        <div class="tech-stack-container reveal">
+          <div class="stack-tags-cloud">
+            <div class="stack-tag-badge">
+              <span class="tech-dot"></span>
+              <strong>Python</strong>
+            </div>
+            <div class="stack-tag-badge">
+              <span class="tech-dot"></span>
+              <strong>Django</strong>
+            </div>
+            <div class="stack-tag-badge cyan">
+              <span class="tech-dot"></span>
+              <strong>Flask</strong>
+            </div>
+            <div class="stack-tag-badge cyan">
+              <span class="tech-dot"></span>
+              <strong>React</strong>
+            </div>
+            <div class="stack-tag-badge">
+              <span class="tech-dot"></span>
+              <strong>PostgreSQL</strong>
+            </div>
+            <div class="stack-tag-badge purple">
+              <span class="tech-dot"></span>
+              <strong>REST APIs</strong>
+            </div>
+            <div class="stack-tag-badge amber">
+              <span class="tech-dot"></span>
+              <strong>Automation / AI Workflows</strong>
+            </div>
+            <div class="stack-tag-badge">
+              <span class="tech-dot"></span>
+              <strong>Git / GitHub</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         06: CONTACT SECTION (Conversion-Focused)
+         ══════════════════════════════════════════════════════════════════ -->
+    <section id="contact">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">contact</span>
+          <h2 class="section-title">Let's Build or Automate Your Project</h2>
+        </div>
+
+        <div class="contact-container reveal">
+          <div class="contact-topbar">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-subtle); margin-left:0.5rem;">
+              inquiry@hitendra.dev — new client message
+            </span>
+          </div>
+
+          <div class="contact-content-grid">
+            
+            <div class="contact-pitch-col">
+              <p class="contact-lead-statement">
+                Tell me what you want to build or automate. I'll reply with a clear quote and timeline.
+              </p>
+              <p class="contact-sub-statement">
+                Whether you need a sleek ₹8,000 fixed-price website, a custom Django + React web app, or an automated lead generation workflow, let's talk. No high-pressure sales calls — just honest developer advice and fast delivery.
+              </p>
+
+              <div class="contact-quick-note">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+                <span>Based in Halol, Gujarat (near Vadodara) · Working with businesses across India · Available on WhatsApp & calls in IST</span>
+              </div>
+            </div>
+
+            <!-- Direct Contact Links -->
+            <div class="contact-links-col">
+              
+              <!-- WhatsApp Link -->
+              <a href="https://wa.me/[YOUR_NUMBER]?text=Hi%20Hitendra,%20I'd%20like%20to%20discuss%20a%20project" target="_blank" rel="noopener noreferrer" class="contact-channel-card whatsapp-card" aria-label="Chat on WhatsApp">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                </div>
+                <div class="contact-channel-info">
+                  <div class="contact-channel-label">
+                    WhatsApp <span class="contact-channel-badge">Fastest Reply</span>
+                  </div>
+                  <div class="contact-channel-val">[YOUR NUMBER]</div>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+
+              <!-- Email Link -->
+              <a href="mailto:rathod8oct@gmail.com?subject=Project%20Inquiry%20from%20Portfolio" class="contact-channel-card" aria-label="Send Email">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-channel-info">
+                  <div class="contact-channel-label">Email</div>
+                  <div class="contact-channel-val">rathod8oct@gmail.com</div>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+
+              <!-- GitHub Link -->
+              <a href="https://github.com/HR8104" target="_blank" rel="noopener noreferrer" class="contact-channel-card" aria-label="Visit GitHub Profile">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                </div>
+                <div class="contact-channel-info">
+                  <div class="contact-channel-label">GitHub</div>
+                  <div class="contact-channel-val">github.com/HR8104</div>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+
+              <!-- LinkedIn Link -->
+              <a href="https://linkedin.com/in/hr8104" target="_blank" rel="noopener noreferrer" class="contact-channel-card linkedin-card" aria-label="Visit LinkedIn Profile">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </div>
+                <div class="contact-channel-info">
+                  <div class="contact-channel-label">LinkedIn</div>
+                  <div class="contact-channel-val">linkedin.com/in/hr8104</div>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-brand-title">Hitendra — Fullstack Developer</div>
+        <div class="footer-location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          © 2026 · Halol, Gujarat, India
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#projects">Work</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#" style="color:var(--emerald);">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       LIGHTBOX MODAL DIALOG
+       ══════════════════════════════════════════════════════════════════ -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Project Screenshot Preview">
+    <div class="lightbox-container">
+      
+      <div class="lightbox-topbar">
+        <span class="lightbox-counter" id="lightboxCounter"></span>
+        <button class="lightbox-close-btn" id="lightboxCloseBtn" aria-label="Close Lightbox">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-media-viewport" id="lightboxViewport">
+        <!-- Prev Button -->
+        <button class="lightbox-nav-btn lightbox-prev-btn" id="lightboxPrevBtn" aria-label="Previous Screenshot">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <!-- Media Display (Image or Fallback SVG Box) -->
+        <div id="lightboxMediaHolder" style="display:flex; align-items:center; justify-content:center; width:100%; height:100%;">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Next Button -->
+        <button class="lightbox-nav-btn lightbox-next-btn" id="lightboxNextBtn" aria-label="Next Screenshot">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-footer">
+        <div class="lightbox-project-badge" id="lightboxProjectBadge"></div>
+        <div class="lightbox-caption-text" id="lightboxCaption"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       VANILLA JAVASCRIPT
+       ══════════════════════════════════════════════════════════════════ -->
+  <script>
+    // ==========================================================================
+    // 1. GALLERY DATA CONFIGURATION
+    // --------------------------------------------------------------------------
+    // To add a new screenshot to your gallery, simply add one object to this array.
+    // Put your image files inside: images/projects/<folder-name>/<file-name>.png
+    // If the image file doesn't exist yet, a neat placeholder box is shown automatically.
+    // ==========================================================================
+    const GALLERY_ITEMS = [
+      // ── Restaurant Booking Website (Ember & Ash) ─────────────────────────
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Hero section of Ember & Ash — full-screen CTA with 'Book a Table' and restaurant stats.",
+        image: "images/Restaurant/Screenshot (381).webp",
+        alt: "Ember & Ash restaurant hero section"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Special Offers section — Flat 20% Off, Free Dessert, and Weekend Special deal cards.",
+        image: "images/Restaurant/Screenshot (382).webp",
+        alt: "Special offers and deals section"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Filterable menu catalog with Chef's Pick, Popular, and Best Seller badges. Prices in ₹.",
+        image: "images/Restaurant/Screenshot 2026-11-03 194502.webp",
+        alt: "Restaurant menu page with category filters"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Menu food cards with pricing (₹649 / ₹399 / ₹349) and add-to-cart buttons.",
+        image: "images/Restaurant/Screenshot 2026-11-03 194558.webp",
+        alt: "Menu food item cards with prices"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "About page with restaurant story, 15 years of excellence badge, and key features.",
+        image: "images/Restaurant/Screenshot 2026-11-03 194622.webp",
+        alt: "Restaurant about page"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Gallery page — food photo grid showcasing signature dishes.",
+        image: "images/Restaurant/Screenshot 2026-11-03 194634.webp",
+        alt: "Restaurant photo gallery page"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Guest Reviews carousel with 5-star testimonials from real diners.",
+        image: "images/Restaurant/Screenshot 2026-11-03 194657.webp",
+        alt: "Guest reviews testimonial section"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Table reservation form — select date, time, guests and meal type. Logged-in booking flow.",
+        image: "images/Restaurant/Screenshot 2026-11-03 195411.webp",
+        alt: "Table booking reservation form"
+      },
+      {
+        project: "Restaurant Booking Website",
+        category: "Restaurant Booking Website",
+        caption: "Razorpay payment integration — UPI QR code modal for booking deposit.",
+        image: "images/Restaurant/Screenshot 2026-11-03 195542.webp",
+        alt: "Razorpay payment gateway integration"
+      },
+
+      // ── Beer Money — Gig Marketplace ─────────────────────────────────────
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Student homepage — browse available gigs with pay, timing, and location details.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211232.webp",
+        alt: "Beer Money student gig browsing dashboard"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Applications tracking — Pending / Accepted / Rejected status cards for student applications.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211240.webp",
+        alt: "Student application tracking view"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "My Hired Gigs — employer contact info revealed after hire confirmation.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211250.webp",
+        alt: "Hired gigs with employer contact reveal"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Employer Dashboard — active gigs list with applicant counts and close / reuse actions.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211102.webp",
+        alt: "Employer dashboard gig management"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Employer pending applicants tab — review and shortlist candidates per gig.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211116.webp",
+        alt: "Employer applicants review panel"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Employer hired students tab — full list with 'Mark as Completed' action per student.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211127.webp",
+        alt: "Employer hired students list"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Master Admin Dashboard — employers list with Freeze and Delete controls.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211140.webp",
+        alt: "Admin employer management panel"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Admin gigs list — full visibility of all employer gigs with Active / Closed status.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211200.webp",
+        alt: "Admin gigs overview list"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Admin students list — manage registered student accounts platform-wide.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211210.webp",
+        alt: "Admin students management list"
+      },
+      {
+        project: "Beer Money — Gig Marketplace",
+        category: "Beer Money — Gig Marketplace",
+        caption: "Admin Action Logs — full audit trail of hire, freeze, and close events with timestamps.",
+        image: "images/BeerMoney/Screenshot 2026-11-05 211220.webp",
+        alt: "Admin action audit log"
+      }
+    ];
+
+    // ==========================================================================
+    // 2. GALLERY RENDERING & LIGHTBOX ENGINE
+    // ==========================================================================
+    let activeFilter = 'All';
+    let filteredItems = [...GALLERY_ITEMS];
+    let currentLightboxIndex = 0;
+
+    const galleryGrid = document.getElementById('galleryGrid');
+    const galleryFilterBar = document.getElementById('galleryFilterBar');
+
+    // Generate neat SVG placeholder box when an image is loading or hasn't been uploaded yet
+    function createPlaceholderSvg(projectName, imagePath, isLarge = false) {
+      const height = isLarge ? '380px' : '100%';
+      return `
+        <div class="gallery-placeholder" style="height:${height};">
+          <div style="display:flex; align-items:center; gap:6px; margin-bottom:8px;">
+            <span style="width:8px;height:8px;border-radius:50%;background:#ef4444;"></span>
+            <span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;"></span>
+            <span style="width:8px;height:8px;border-radius:50%;background:#10b981;"></span>
+            <span style="font-family:var(--font-mono); font-size:0.65rem; color:var(--text-subtle); margin-left:6px;">UI Preview</span>
+          </div>
+          <span class="placeholder-badge">${projectName}</span>
+          <div class="placeholder-label">Screenshot Placeholder</div>
+          <div class="placeholder-hint">Add image to: <br/><code>${imagePath}</code></div>
+        </div>
+      `;
+    }
+
+    // Build unique categories for the filter bar
+    function initGalleryFilters() {
+      const categories = ['All', ...new Set(GALLERY_ITEMS.map(item => item.category))];
+      galleryFilterBar.innerHTML = categories.map(cat => `
+        <button class="filter-btn ${cat === activeFilter ? 'active' : ''}" 
+                data-filter="${cat.replace(/"/g, '&quot;')}"
+                role="tab" 
+                aria-selected="${cat === activeFilter}">
+          ${cat}
+        </button>
+      `).join('');
+      // Attach events via JS — avoids issues with special chars (em dashes etc.) in inline onclick
+      galleryFilterBar.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => filterGallery(btn.dataset.filter));
+      });
+    }
+
+    // Render Gallery Items
+    function renderGallery() {
+      if (activeFilter === 'All') {
+        filteredItems = [...GALLERY_ITEMS];
+      } else {
+        filteredItems = GALLERY_ITEMS.filter(item => item.category === activeFilter);
+      }
+
+      galleryGrid.innerHTML = filteredItems.map((item, idx) => `
+        <article class="gallery-card" onclick="openLightbox(${idx})" tabindex="0" role="button" aria-label="Open screenshot for ${item.project}">
+          <div class="gallery-thumb-wrapper">
+            <img class="gallery-thumb-img" 
+                 src="${encodeURI(item.image)}" 
+                 alt="${item.alt}" 
+                 loading="lazy"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                 onload="this.style.display='block'; if(this.nextElementSibling) this.nextElementSibling.style.display='none';" />
+            
+            <div style="display:none; width:100%; height:100%;">
+              ${createPlaceholderSvg(item.project, item.image)}
+            </div>
+
+            <div class="gallery-thumb-overlay">
+              <span class="gallery-zoom-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                Inspect
+              </span>
+            </div>
+          </div>
+
+          <div class="gallery-info">
+            <div class="gallery-project-name">${item.project}</div>
+            <p class="gallery-caption">${item.caption}</p>
+          </div>
+        </article>
+      `).join('');
+
+      // Enable Enter / Space key opening on gallery cards for accessibility
+      document.querySelectorAll('.gallery-card').forEach((card, i) => {
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openLightbox(i);
+          }
+        });
+      });
+    }
+
+    // Filter Trigger
+    function filterGallery(category) {
+      activeFilter = category;
+      initGalleryFilters();
+      renderGallery();
+    }
+
+    // Lightbox Modal Controls
+    const lightboxModal = document.getElementById('lightboxModal');
+    const lightboxMediaHolder = document.getElementById('lightboxMediaHolder');
+    const lightboxProjectBadge = document.getElementById('lightboxProjectBadge');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    const lightboxCounter = document.getElementById('lightboxCounter');
+    const lightboxCloseBtn = document.getElementById('lightboxCloseBtn');
+    const lightboxPrevBtn = document.getElementById('lightboxPrevBtn');
+    const lightboxNextBtn = document.getElementById('lightboxNextBtn');
+
+    function openLightbox(index) {
+      currentLightboxIndex = index;
+      updateLightboxContent();
+      lightboxModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      // Small delay so focus trap works after CSS transition
+      setTimeout(() => lightboxCloseBtn.focus(), 50);
+    }
+
+    function closeLightbox() {
+      lightboxModal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function updateLightboxContent() {
+      const item = filteredItems[currentLightboxIndex];
+      if (!item) return;
+
+      lightboxProjectBadge.textContent = item.project;
+      lightboxCaption.textContent = item.caption;
+      lightboxCounter.textContent = `${currentLightboxIndex + 1} of ${filteredItems.length}`;
+
+      // Test image loading with dynamic fallback
+      lightboxMediaHolder.innerHTML = `
+        <img class="lightbox-image" 
+             id="activeLightboxImg"
+             src="${encodeURI(item.image)}" 
+             alt="${item.alt}"
+             onerror="this.style.display='none'; document.getElementById('lightboxFallback').style.display='flex';"
+             onload="this.style.display='block'; document.getElementById('lightboxFallback').style.display='none';" />
+        <div id="lightboxFallback" style="display:none; width:100%; height:100%; align-items:center; justify-content:center;">
+          ${createPlaceholderSvg(item.project, item.image, true)}
+        </div>
+      `;
+    }
+
+    function showPrevScreenshot() {
+      currentLightboxIndex = (currentLightboxIndex - 1 + filteredItems.length) % filteredItems.length;
+      updateLightboxContent();
+    }
+
+    function showNextScreenshot() {
+      currentLightboxIndex = (currentLightboxIndex + 1) % filteredItems.length;
+      updateLightboxContent();
+    }
+
+    // Lightbox Event Listeners
+    lightboxCloseBtn.addEventListener('click', closeLightbox);
+    lightboxPrevBtn.addEventListener('click', (e) => { e.stopPropagation(); showPrevScreenshot(); });
+    lightboxNextBtn.addEventListener('click', (e) => { e.stopPropagation(); showNextScreenshot(); });
+
+    lightboxModal.addEventListener('click', (e) => {
+      if (e.target === lightboxModal) {
+        closeLightbox();
+      }
+    });
+
+    // Keyboard support: Esc closes, Arrow keys navigate
+    window.addEventListener('keydown', (e) => {
+      if (!lightboxModal.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') showPrevScreenshot();
+      if (e.key === 'ArrowRight') showNextScreenshot();
+    });
+
+    // Touch Swipe Support on Mobile for Lightbox
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const lightboxViewport = document.getElementById('lightboxViewport');
+
+    lightboxViewport.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    lightboxViewport.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+      const swipeDistance = touchEndX - touchStartX;
+      if (Math.abs(swipeDistance) > 45) {
+        if (swipeDistance < 0) {
+          showNextScreenshot(); // swiped left
+        } else {
+          showPrevScreenshot(); // swiped right
+        }
+      }
+    }
+
+    // ==========================================================================
+    // 3. NAVBAR SCROLL EFFECT & MOBILE DRAWER
+    // ==========================================================================
+    const navbar = document.getElementById('navbar');
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 25);
+    }, { passive: true });
+
+    mobileMenuBtn.addEventListener('click', () => {
+      const isOpen = mobileDrawer.classList.toggle('open');
+      mobileMenuBtn.setAttribute('aria-expanded', isOpen);
+    });
+
+    mobileDrawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileDrawer.classList.remove('open');
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // ==========================================================================
+    // 4. SCROLL REVEAL OBSERVER
+    // ==========================================================================
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0, rootMargin: "0px 0px -60px 0px" });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Initialize gallery on load
+    initGalleryFilters();
+    renderGallery();
+  </script>
+  <script>
+    // ── UI polish: scroll progress, active nav, back-to-top, card spotlight ──
+    (function () {
+      const nav = document.getElementById('navbar');
+      const bar = document.createElement('div');
+      bar.className = 'scroll-progress';
+      nav.appendChild(bar);
+      const toTop = document.getElementById('backToTop');
+
+      function onScroll() {
+        const max = document.documentElement.scrollHeight - innerHeight;
+        bar.style.transform = `scaleX(${max > 0 ? scrollY / max : 0})`;
+        toTop.classList.toggle('show', scrollY > 700);
+      }
+      addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      toTop.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+
+      // Highlight the nav link for the section in view
+      const links = document.querySelectorAll('.nav-links a, .mobile-drawer a');
+      const sectionObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const id = '#' + entry.target.id;
+          links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === id));
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      document.querySelectorAll('main > section[id]').forEach(s => sectionObserver.observe(s));
+
+      // Spotlight follows the cursor on cards (event delegation, works for re-rendered gallery cards)
+      document.addEventListener('pointermove', e => {
+        const card = e.target.closest && e.target.closest('.service-card, .featured-project-card, .process-card, .gallery-card');
+        if (!card) return;
+        const r = card.getBoundingClientRect();
+        card.style.setProperty('--mx', `${e.clientX - r.left}px`);
+        card.style.setProperty('--my', `${e.clientY - r.top}px`);
+      });
+
+      // Close mobile drawer on Escape or outside tap
+      const drawer = document.getElementById('mobileDrawer');
+      const menuBtn = document.getElementById('mobileMenuBtn');
+      function closeDrawer() {
+        drawer.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+      addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+      document.addEventListener('click', e => {
+        if (drawer.classList.contains('open') && !nav.contains(e.target)) closeDrawer();
+      });
+    })();
+  </script>
+</body>
+</html>
+
